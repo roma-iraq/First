@@ -79,8 +79,8 @@ body {
 
 @media (max-width: 500px) {
     .main-title img {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 }
 
@@ -163,7 +163,7 @@ header .container nav .icon {
 }
 
 header .container nav .bar {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 @media(min-width: 992px) {
@@ -195,7 +195,7 @@ header .container nav .logo a {
 
 @media (max-width: 575px) {
     header .container nav .logo a {
-        font-size: 25px;
+        font-size: 20px;
         margin-left: -137px;
     }
 }
@@ -286,7 +286,7 @@ header .container .number i {
     }
 
     header .container .number i {
-        padding: 10px;
+        padding: 5px;
     }
 }
 
@@ -457,7 +457,7 @@ header .container .number span:hover {
 
 @media (max-width: 992px) {
     .landing .container .image {
-        width: 300px;
+        width: 270px;
         height: 260px;
         margin-top: 170px;
     }
@@ -478,7 +478,7 @@ header .container .number span:hover {
 
 @media (max-width: 992px) {
     .landing .container .image img {
-        max-width: 400px;
+        max-width: 290px;
     }
 }
 
@@ -554,7 +554,11 @@ header .container .number span:hover {
     margin-left: 50px;
     word-spacing: -10px;
 }
-
+@media (max-width: 530px) {
+    .story .container .info .img h1 {
+        font-size: 40px;
+    }
+}
 .story .container .info .img img {
     max-width: 160px;
     height: 160px;
@@ -702,7 +706,11 @@ header .container .number span:hover {
 .information .container .text .number.line {
     margin: 24px 12px 0px 20px;
 }
-
+@media (max-width: 530px) {
+    .information .container .text .number.line {
+        margin: 20px 10px 0px 18px;
+    }
+}
 .information .container .text .number.line-1::before {
     content: "";
     position: absolute;
@@ -730,7 +738,11 @@ header .container .number span:hover {
     font-weight: bold;
     padding: 20px 0 0 0;
 }
-
+@media (max-width: 530px) {
+    .information .container .text .number span {
+        font-size: 40px;
+    }
+}
 .information .container .text .number h5 {
     font-size: 16px;
     color: var(--main-color);
@@ -1096,7 +1108,7 @@ header .container .number span:hover {
 
     .contact .box .services,
     .contact .box .about {
-        width: 100%;
+        width: calc(100% + 50px);
         margin-bottom: 10px;
     }
 }
